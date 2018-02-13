@@ -1,0 +1,484 @@
+body {
+	
+
+	background-color: #f2f4fb;
+}
+h1 {
+	color: white !important;
+	font-family: 'Eagle Lake', cursive !important;
+	font-size: 26px !important;
+    font-variant: small-caps !important;
+    font-variant-ligatures: normal !important;
+    font-variant-caps: small-caps !important;
+    font-variant-numeric: normal !important;
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 10px!important;
+}
+
+
+.graybg {
+	background-color: gray;
+}
+
+
+
+.logo {
+	width: 75px;
+
+}
+.fullwidth {
+	width: 100%;
+	max-width: 400px;
+	margin-top: 30px;
+}
+
+.col-xs-12.bordertest {
+    white-space: nowrap;
+}
+
+.rates {
+	font-size: 20px;
+}
+
+.googleCalendar{
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.workshopimage {
+	width: 100%;
+	max-width: 800px;
+}
+
+.workshopwrap {
+	text-align: center;
+}
+
+.productImg {
+	height: 200px;
+}
+
+.prodPanel {
+	background-color: white;
+	border-color: rgba(239, 239, 239, 0.95);
+	border-style:solid ;
+	border-width: 5px;
+	text-align: center; 
+}
+
+bordertest {
+
+	/*border-style: solid;
+	border-size: 1px;*/
+}
+
+ul.navbarlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.navbaritem {
+	width: 50%;
+    float: left;
+
+}
+
+li.navbaritem a {
+	font-size: 18px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navbaritem a:hover {
+    color: #bedbee;
+    text-decoration: none;
+}
+
+ul#dropdown2 {
+	height: 0px;
+	width: 100%;
+	overflow: hidden;
+	-webkit-transition: height .5s; 
+  -moz-transition: height .5s; 
+  -ms-transition: height .5s; 
+  -o-transition: height .5s; 
+  transition: height .5s;
+}
+
+ul#dropdown1 {
+	height: 0px;
+	width: 100%;
+	overflow: hidden;
+	-webkit-transition: height .5s; 
+  -moz-transition: height .5s; 
+  -ms-transition: height .5s; 
+  -o-transition: height .5s; 
+  transition: height .5s;
+}
+
+ul#dropdown0 {
+	height: 0px;
+	width: 100%;
+	overflow: hidden;
+	-webkit-transition: height .5s; 
+  -moz-transition: height .5s; 
+  -ms-transition: height .5s; 
+  -o-transition: height .5s; 
+  transition: height .5s;
+}
+
+.navbarsubitem {
+	list-style: none;
+	padding-left: 0;
+	    position: relative;
+    z-index: 1000;
+        white-space: normal !important;
+
+
+}
+
+.navbarsubitem a {
+	padding: 7px 10px !important;
+
+}
+
+.backdropdown {
+	background-color: black;
+	color: white;
+}
+
+.footer {
+	color:white;
+	padding: 10px 0px;
+	margin-top: 30px;
+
+}
+
+.footer a{
+	color: white;
+	text-decoration: underline;
+}
+.contactfooter {
+	text-align: right;
+}
+.contactdetails {
+	padding: 15px 0px;
+}
+
+.buttonlink {
+	color: white;
+	background-color: gray;
+	white-space: nowrap;
+	text-decoration: none !important;
+	padding: 10px 30px;
+	margin-top: 10px;
+	font-size: 20px;
+	border-style:solid;
+	transition: color 1s;
+
+}
+
+.buttonlink:hover {
+	text-decoration: none;
+	color: #2E2D7B;	
+}
+
+.pageimage {
+	text-align: center;
+}
+
+
+
+.splashimg1 {
+	background-image:url('../images/Spa.jpg');
+	    text-align: right;
+	        background-position: center;
+}
+
+.splashimg2 {
+	background-image:url('../images/sound.jpg');
+	    text-align: right;
+	    background-position: center 20%;
+}
+.splashimg3 {
+	background-image:url('../images/meditationsplash.jpg');
+	    text-align: left;
+	        background-position: center 20%;
+}
+.splashimg4 {
+	background-image:url('../images/yogasplash.jpg');
+	    text-align: left;
+}
+.splashimg5 {
+	background-image:url('../images/M23.jpg');
+	    text-align: right;
+	    min-height: 288px !important;
+	    background-position: center 0%;
+
+}
+.splashimg6 {
+	background-image:url('../images/IHIMisty1.jpg');
+	    text-align: left;
+}
+.splashimg7 {
+	background-image:url('../images/M7.jpg');
+	    text-align: left;
+
+}
+.splashimg8 {
+	background-image:url('../images/IHIMisty.jpg');
+	    text-align: right;
+
+
+}
+
+
+.splashwidth {
+	background-size: 430px auto;
+	height: 280px;
+    background-repeat: no-repeat;
+
+}
+.splashtext {
+	width: 50%;
+	padding: 20px;
+	margin-top: 20px;
+	position: absolute;
+	color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+	font-weight: bold;
+}
+
+.splashtext1 {
+	background: gray; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, transparent , gray); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, transparent , gray); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, transparent , gray); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, transparent , gray); /* Standard syntax */
+	right: 0px;
+
+}
+.splashtext2 {
+  background: #F57B4B; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, transparent , #F57B4B); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, transparent , #F57B4B); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, transparent , #F57B4B); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, transparent , #F57B4B); /* Standard syntax */
+	right: 0px;
+}
+.splashtext3 {
+  background: #DEDB7D; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right, transparent , #DEDB7D); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, transparent , #DEDB7D); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, transparent , #DEDB7D); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, transparent , #DEDB7D); /* Standard syntax */
+	left: 0px;
+}
+.splashtext4 {
+  background: #549DCC; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right, transparent , #549DCC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, transparent , #549DCC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, transparent , #549DCC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, transparent , #549DCC); /* Standard syntax */
+	left: 0px;
+}
+.splashtext5 {
+  background: #82A379; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, transparent , #82A379); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, transparent , #82A379); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, transparent , #82A379); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, transparent , #82A379); /* Standard syntax */
+	right: 0px;
+}
+.splashtext6 {
+  background: #EB46B3; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right, transparent , #EB46B3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, transparent , #EB46B3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, transparent , #EB46B3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, transparent , #EB46B3); /* Standard syntax */
+	left: 0px;
+}
+.splashtext7 {
+  background: #549DCC; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right, transparent , #549DCC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, transparent , #549DCC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, transparent , #549DCC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, transparent , #549DCC); /* Standard syntax */
+	left: 0px;
+}
+.splashtext8 {
+  background: #FFBC66; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, transparent , #FFBC66); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, transparent , #FFBC66); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, transparent , #FFBC66); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, transparent , #FFBC66); /* Standard syntax */
+	right: 0px;
+}
+
+.container.splashmargin {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+
+.randbg1 {
+	background-color: #A5A5A5;
+}
+
+.randbg2 {
+	background-color: #F57B4B;
+}
+.randbg3 {
+	background-color: #DEDB7D;
+}
+.randbg4 {
+	background-color: #549DCC;
+}
+.randbg5 {
+	background-color: #82A379;
+}
+.randbg6 {
+	background-color: #EB46B3;
+}
+.randbg7 {
+	background-color: #549DCC;
+}
+.randbg8 {
+	background-color: #FFBC66;
+}
+
+.healimg h2{
+	color: white;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+
+}
+
+
+
+
+@media screen and (min-width: 745px) and (max-width: 1000px) {
+	li.navbaritem a {
+	font-size: 16px;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+.container.splashmargin {
+	margin-top: 20px;
+}
+.healimg p{
+	margin-left: 15px;
+}
+.healimg h2{
+	margin-left: 15px;
+}
+
+.splashimg7 {
+	background-position: center 32%;
+}
+.splashimg2 {
+	background-position: center 32%;
+}
+.splashimg6 {
+	background-position: center 24%;
+}
+body {
+	background-image: url(../images/bgimage.jpg);
+	background-attachment: fixed;
+}
+
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
+    	background-color: #f2f4fb;
+    	background-image: none;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { 
+    	background-color: #f2f4fb;
+    	background-image: none;
+}
+
+
+@media screen and (min-width: 430px) {
+	
+.splashwidth {
+	background-size: cover;
+
+}
+.splashimg6 {
+	background-position: center 24%;
+}
+.splashimg8 {
+	min-height: 346px !important;
+
+}
+.splashimg7 {
+    min-height: 286px !important;
+        background-position: center 22%;
+}
+}
+
+@media screen and (min-width: 650px) and (max-width: 745px) {
+	li.navbaritem a {
+	font-size: 14px;
+}
+
+}
+
+@media screen and (min-width: 650px) {
+
+
+
+.navbar1 {
+	height: 55px;
+}
+
+.titletop {
+	height: 52px;
+}
+
+ul.navbarlist {
+		margin-left: 65px;
+
+}
+
+li.navbaritem {
+	width: 16%;
+    float: left;
+    white-space: nowrap;
+}
+
+}
+
+@media screen and (min-width: 450px) {
+
+h1 {
+	font-size: 40px !important;
+}
+
+}
+@media screen and (min-width: 1200px) {
+    .splashimg6 {
+    	background-position: center 20%;
+    }
+}
+
+
